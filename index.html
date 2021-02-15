@@ -1,14 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Gary Ave. Gold</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./static/css/main1.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Literata:wght@700&family=Open+Sans&family=Pacifico&family=Bree+Serif&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/510b649c31.js" crossorigin="anonymous"></script>
+        <title>Gary Ave. Gold | Main </title>
+    </head>
     <body>
-        <div class="container pt-5">
-            <img src="./garyavegold.jpg" alt="">
+        <div class="container">
+            <div class="d-flex justify-content-center jumbotron"><img class="img-fluid" src="https://garyavegold.s3.amazonaws.com/hero-image.png" alt=""></div>
+            <div class="mx-3 mb-5 nav-container d-flex justify-content-center">
+                <ul class="nav row">
+                    <li class="nav-item my-1"><a href="./index.html" class="nav-link "><i class="fas fa-home"></i></a></li>
+                    <li class="nav-item my-1"><a href="./products.html" class="nav-link ">Products</a></li>
+                    <li class="nav-item my-1"><a href="./ordering.html" class="nav-link">Ordering</a></li>
+                    <li class="nav-item my-1"><a href="./about.html" class="nav-link">About us</a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card mx-auto">
+                            <div id="carouselSlides" class="carousel slide" data-interval="3000" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block img-fluid w-100" src="https://garyavegold.s3.amazonaws.com/farm_boy.jpg" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block img-fluid w-100" src="https://garyavegold.s3.amazonaws.com/bees.jpg" alt="Second slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block img-fluid w-100" src="https://garyavegold.s3.amazonaws.com/tree_hive.jpg" alt="Third slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block img-fluid w-100" src="https://garyavegold.s3.amazonaws.com/comb2.jpg" alt="Third slide">
+                                  </div>
+                                </div>
+                              </div>
+                            
+                            <div class="text-center card-body">
+                                <h5 class="card-title">Ide's Gary Avenue Gold</h5>
+                                <p class="card-text text-justify"> Ide's Gary Avenue Gold is all-natural, locally collected honey from Tulsa, OK. Ide's Gary Avenue Gold is locally produced with minimal processing. The unique combination of flora across our hive locations make for a unique flavor that tells a story of the flowers, fields, and bees of Tulsa County. We're confident that after one taste you'll be saying
+                                </p>
+                                <p class="rather-wrapper">
+                                    <span class="rather">I'd rather have Ide's.</span><i class="fas fa-quote-right quote"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card mx-auto mt-5">
+                            <img src="https://garyavegold.s3.amazonaws.com/jars.jpg" class="card-pic img-fluid card-img-top" alt="...">
+                            <div class="text-center card-body">
+                                <h5 class="card-title">Products</h5>
+                                <p class="card-text mb-4">While we're mighty proud of the honey we make, but we have other items as well. Have a look at all of our products.</p>
+                                <a href="./products.html" class="btn-honey">Products</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card mx-auto mt-5">
+                            <img src="https://garyavegold.s3.amazonaws.com/sales.jpg" class="card-pic img-fluid card-img-top" alt="...">
+                            <div class="text-center card-body">
+                                <h5 class="card-title">Ordering</h5>
+                                <p class="card-text mb-4">Find out how to get a hold of some our fabulous honey.</p>
+                                <a href="./ordering.html" class="btn-honey">Ordering</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card mx-auto mt-5">
+                            <img src="https://garyavegold.s3.amazonaws.com/about.jpg" class="card-pic img-fluid card-img-top" alt="...">
+                            <div class="text-center card-body">
+                                <h5 class="card-title">About Us</h5>
+                                <p class="card-text mb-4">Meet the Ide's behind Ide's Gary Avenue Gold</p>
+                                <a href="./about.html" class="btn-honey">About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col py-2 text-right align-self-end">
+                            <h5 id="footertext" class="mt-2 footer-text">Web design by Jacob Ide</h5>
+                            <p id="footertext" class="footer-text">Copyright &copy;<span id="year"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>                           
         </div>
+        <script>
+            $('#year').text(new Date().getFullYear());
+        </script>
     </body>
 </html>

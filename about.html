@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./static/css/main1.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Literata:wght@700&family=Open+Sans&family=Pacifico&family=Bree+Serif&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/510b649c31.js" crossorigin="anonymous"></script>
+        <title>Gary Ave. Gold | About Us </title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="d-flex justify-content-center jumbotron"><img class="img-fluid" src="https://garyavegold.s3.amazonaws.com/hero-image.png" alt=""></div>
+            <div class="mx-3 mb-5 nav-container d-flex justify-content-center">
+                <ul class="nav row">
+                    <li class="nav-item my-1"><a href="./index.html" class="nav-link "><i class="fas fa-home"></i></a></li>
+                    <li class="nav-item my-1"><a href="./products.html" class="nav-link ">Products</a></li>
+                    <li class="nav-item my-1"><a href="./ordering.html" class="nav-link">Ordering</a></li>
+                    <li class="nav-item my-1"><a href="./about.html" class="nav-link">About us</a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <h1 class="about-title mb-4">About us</h1>
+                <dic class="about-image-wrapper">
+                    <img class="about-image" src="https://garyavegold.s3.amazonaws.com/about2.jpg" alt="">
+                </dic>
+                <p class="about">Ide's Gary Avenue Gold began 5 years ago as a hobby between Jay and Cheryl Ide. As time went on and the number of hives grew, it developed into a brisk business and a full-time operation. Now Jay and Cheryl have hives all over Tulsa county and process over a thousand gallons of honey a year. Keeping bees, extracting honey, making beeswax products, and even fermenting mead are not the sort of business to get into just to make money, though. It begins with a passion for local products and flavor and a desire to build community. We hope you sense that passion and commitment with every taste  of Ide's Gary Avenue Gold.</p>
+            </div>
+            <hr>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col py-2 text-right align-self-end">
+                            <h5 id="footertext" class="mt-2 footer-text">Web design by Jacob Ide</h5>
+                            <p id="footertext" class="footer-text">Copyright &copy;<span id="year"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>                           
+        </div>
+        <script>
+            $('#year').text(new Date().getFullYear());
+        </script>
+    </body>
+</html>

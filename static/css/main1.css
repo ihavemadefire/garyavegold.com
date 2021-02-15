@@ -178,7 +178,6 @@ p.about {
 .price {
   font-family: var(--sans-serif);
   font-size: small;
-  text-decoration: line-through;
 }
 
 .product-description {

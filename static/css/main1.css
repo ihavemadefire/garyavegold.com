@@ -218,3 +218,8 @@ p.about {
   color: grey;
   font-family: var(--sans-serif);
 }
+
+.c-slide {
+  max-height: 500px;
+  object-fit: contain;
+}

@@ -1,4 +1,39 @@
+<p align='center'>
+<img src="https://garyavegold.s3.amazonaws.com/hero-image.png"  width=300 style='align: center'>
+</p>
+
 # garyavegold.com
+
+**You achieve what you don't measure**
+
+<img src='https://github.com/ihavemadefire/garyavegold.com/blob/main/gag_home.png' height=500>
+
+
+<img src='https://github.com/ihavemadefire/BestYearYet/blob/master/resolution_byy.png' height=300 align=right>
+
+BestYear Yeat is a Flask web application that facilitates better tracking of New Year’s resolutions. The impetus for this was the realization that most people forget about their self-improvement plans for the year by February. BestYearYet provides a means for people to track their progress using customized goal trackers.  The main categories are Goals, Books, and Health. In addition to goal tracking, progress bars, and health graphing, there is a blog section that allows users to document their journey.
+
+## Tech stack        
+
+|           |      |
+|-----------|------|
+| Framework  | Flask |
+| DB | sqlite |
+| ORM | SQLAlchemy |
+| JS Library | JQuery |
+
+
+| Implemented | Not implemented Yet |
+|-------------|---------------------|
+| Front end proof of concept | User Auth/ multi-usuer funtionality |
+| Dev deploy on Heroku | Live deploy |
+| Graph.js integration | fix broken js for graphs |
+| Tables built and populated | Refactor in more appropriate framework |
+| Animations for blog posts done | Refactor front end as React|
+
+## Biggest challenges
+This was my first attempt at a web application of any size at all. The limitations of Flask as a microframework made it very difficult to finish the project as a fully fleshed out social network. It’s an idea I would like to refactor with a framework like Django.
+
 
 Author information
 ------------------

@@ -4,35 +4,30 @@
 
 # garyavegold.com
 
-**You achieve what you don't measure**
-
 <img src='https://github.com/ihavemadefire/garyavegold.com/blob/main/gag_home.png' height=500>
 
-
-<img src='https://github.com/ihavemadefire/BestYearYet/blob/master/resolution_byy.png' height=300 align=right>
-
-BestYear Yeat is a Flask web application that facilitates better tracking of New Year’s resolutions. The impetus for this was the realization that most people forget about their self-improvement plans for the year by February. BestYearYet provides a means for people to track their progress using customized goal trackers.  The main categories are Goals, Books, and Health. In addition to goal tracking, progress bars, and health graphing, there is a blog section that allows users to document their journey.
+This is a customer-facing business website for Gary Ave. Gold Honey Co. It uses HTML and CSS/Bootstrap. On the main page there is a Boostrap image carousell. Images are served via AWS S3 buckets.
 
 ## Tech stack        
 
 |           |      |
 |-----------|------|
-| Framework  | Flask |
-| DB | sqlite |
-| ORM | SQLAlchemy |
-| JS Library | JQuery |
+| Framework  | HTML |
+| CSS Library | Bootstrap |
+| Image Hosting | AWS s3 Buckets to reduce server latency |
+| Domain name emails | GoDaddy Email service |
+| Deployment | Digital Ocean |
 
 
 | Implemented | Not implemented Yet |
 |-------------|---------------------|
-| Front end proof of concept | User Auth/ multi-usuer funtionality |
-| Dev deploy on Heroku | Live deploy |
-| Graph.js integration | fix broken js for graphs |
-| Tables built and populated | Refactor in more appropriate framework |
-| Animations for blog posts done | Refactor front end as React|
+| Front end proof of concept | Review and improve design choices |
+| Live deploy through digital ocean| Refactor with React |
+| Bash script built for easy github integration | Add a CMS |
+
 
 ## Biggest challenges
-This was my first attempt at a web application of any size at all. The limitations of Flask as a microframework made it very difficult to finish the project as a fully fleshed out social network. It’s an idea I would like to refactor with a framework like Django.
+Not to using a framework on this seemed like the easy way to go at the begining, but, not being able to use jinja templates or reusable React components definitely led to the html getting unwieldy. This project would be a great candidate for a static react generating framework like Gatsby.
 
 
 Author information
